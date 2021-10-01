@@ -1,0 +1,24 @@
+{
+  "name": "devblog-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pavan Chilukuri <ichilupa@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.2.0",
+    "apollo-server": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.6.0",
+    "graphql-subscriptions": "^1.2.1",
+    "nodemon": "^2.0.13",
+    "subscriptions-transport-ws": "^0.9.19"
+  }
+}
